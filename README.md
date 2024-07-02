@@ -1,4 +1,4 @@
-# Virtual Proctoring Web Application using dlib and YOLO v5
+# Virtual Proctoring Web App using dlib and YOLO v5
 
 ### Running the application
 Execute requirements.sh to fetch requirements
