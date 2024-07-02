@@ -1,0 +1,38 @@
+div#bigBox {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+body{
+    margin:0;background-color: #2d5456;
+    font-family:sans-serif;
+}
+div#cam{
+    margin:15px;
+}
+img{
+    width:70vw ;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+div#notif{
+    background-color: #1baeb2;
+    border-radius: 10px;
+    width: 150px;
+    /* height: 100; */
+    word-wrap: break-word;
+    
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+}
+.topBar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 70px;
+    font-size: 33px;
+color:#ece7d9;
+}

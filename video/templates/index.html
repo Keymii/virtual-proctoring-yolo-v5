@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+    <title>WebCamera</title>
+
+</head>
+<body>
+    <div class="topBar">Virtual Proctoring System</div>
+    <div id= "bigBox">
+        {% comment %} <div>Camera</div> {% endcomment %}
+        <div   id="cam" >
+            <img src="{% url 'live_camera' %}">
+        </div>
+        <div id="notif">
+            <div>
+<h4>Notification<br/> (feature incoming)</h4>
+            </div>
+            <div></div>
+        </div>
+    </div>
+</body>
+</html>
